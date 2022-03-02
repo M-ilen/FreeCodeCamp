@@ -1,0 +1,130 @@
+
+html{
+    font-family: 'Libre Baskerville', serif;
+    color:#112A46;
+    font-size: 16px;
+}
+
+body{
+    background: hsla(50, 57%, 47%, 1);
+    background: linear-gradient(90deg, hsla(50, 57%, 47%, 1) 0%, hsla(56, 83%, 82%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(50, 57%, 47%, 1) 0%, hsla(56, 83%, 82%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(50, 57%, 47%, 1) 0%, hsla(56, 83%, 82%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BDA734", endColorstr="#F7F2AB", GradientType=1 );
+    margin-top: 10px;
+}
+
+.header{
+    width: 98%;
+    border: 2px;
+    margin: 0 auto;
+}
+    
+.title{
+    text-align: center;
+    font-size:30px;
+    border: 2px solid #BD9F34;
+    margin:0px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow: 2px 2px #BD9F34
+
+}
+
+.cita{
+    width: 60%; 
+    margin:4px auto 1px;
+    padding:15px 0px;
+    text-align:center;
+    font-style: italic;
+    font-size: 0.8 rem;
+}
+
+.main{
+    margin:5px;
+}
+
+.img-div{
+    border: 2px;
+    border-radius:15px;
+    box-shadow: 2px 2px #BD9F34;
+    margin: 0 auto;
+}
+
+.image{
+    max-width:85%;
+    height:auto;
+    margin:auto;
+    display: block;
+    padding-top: 10px;
+    border-radius:10px;
+}
+
+.img-caption {
+    border: 2px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 3px;
+}
+
+.tributo-div{
+    border: 2px;
+    margin: 2px auto;
+}
+
+.title1 {
+    border: 2px;
+    margin:10px 20px;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.lista{
+text-align: left;
+font-size: 0.8rem;
+line-height:20px;
+}
+
+.inf{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+a{
+    color:#112A46;
+}
+
+@media screen and (min-width: 438px){
+    html{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    
+    .title{
+        font-size:2rem;
+    }   
+    .lista{
+        width: 50%;
+        text-align:justify;
+        line-height:30px;
+        padding:2px 30px 5px;
+        margin: 2px auto
+        }
+
+    .tributo-div{
+        border:2px;
+        margin: auto;
+        }
+    .img-div{
+        width: 55%;
+        border: 2px;
+        border-radius:15px;
+        margin-right: auto;
+        margin-left: auto;
+        box-shadow: 5px 5px #BD9F34;
+        }
+}
